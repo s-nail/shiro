@@ -1,22 +1,14 @@
 package com.hengtiansoft.shiro.chapter4;
 
-import com.alibaba.druid.pool.DruidDataSource;
 import junit.framework.Assert;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
-import org.apache.shiro.authc.pam.AtLeastOneSuccessfulStrategy;
-import org.apache.shiro.authc.pam.ModularRealmAuthenticator;
-import org.apache.shiro.authz.ModularRealmAuthorizer;
-import org.apache.shiro.authz.permission.WildcardPermissionResolver;
 import org.apache.shiro.config.IniSecurityManagerFactory;
-import org.apache.shiro.mgt.DefaultSecurityManager;
-import org.apache.shiro.realm.Realm;
-import org.apache.shiro.realm.jdbc.JdbcRealm;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 import org.junit.Test;
 
-import java.util.Arrays;
 
 /**INI配置分类:
  * 
